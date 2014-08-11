@@ -28,6 +28,8 @@ For example:
     scoring:  match = 1,  mismatch = -1, indel = -1
     matches: 64,  score: 53
 
+Results are appended to `output.txt` as follows:
+
     $ cat out.txt
     2014 8/11 15:46:30
     GGGCCCATAGCTCAG--TGGTAGAGTGCCTCCTTTGCAAGGAGGATGCCCTGGGTTCGAATCCCAGTGGGTCCAT
@@ -35,6 +37,13 @@ For example:
     GGGCCCATAGCTCAGCCTGGGAGAGCGCCGCCCTTGCAAGGCGGAGGCCCCGGGTTCAAATCCCGGTGGGTCCAT
     scoring:  match = 1,  mismatch = -1, indel = -1
     matches: 64,  score: 53
+
+    2014 8/11 16:26:2
+    GGGCCCATAGCTCAGTGGTAGAGTGCCTCCTTTGCAAGGAGGATGCCCTGGGTTCGAATCCCAGTGGGTCCAT
+    |||||||||||||        |  |   ||  ||   ||| || |  |   |  ||   |||  |   | |  
+    GGGCCCATAGCTC--------A--G---CC--TG---GGA-GA-G--C---G-CCG---CCC--T---TGC--
+    scoring:  match = 1,  mismatch = -1, indel = -1
+    matches: 35,  score: -3
 
 ## Installation
 
