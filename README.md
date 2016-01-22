@@ -1,4 +1,4 @@
-A Naive implementation of the Needleman-Wunsch algorithm to align protein or nucleotide sequences.
+A naive implementation of the Needleman-Wunsch algorithm to align protein or nucleotide sequences.
 Notice that this implementation uses a simple match-mismatch-gap scoring,
 so this doesn't use a similarity matrix of DNA to calculate alignment scores.
 
